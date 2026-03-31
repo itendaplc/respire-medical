@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Respire Medical — science for a better life. Singapore-based healthcare firm specialising in oncology diagnostics and therapeutics." />
+  <title>Respire Medical | Science for a Better Life</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Respire Medical home">
+        <svg class="nav__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" stroke="#2A9D8F" stroke-width="1.5"/>
+          <path d="M20 8 C13 8 8 13.5 8 20 C8 26.5 13 32 20 32" stroke="#2A9D8F" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          <path d="M20 8 C27 8 32 13.5 32 20 C32 26.5 27 32 20 32" stroke="rgba(42,157,143,0.4)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          <path d="M14 20 C14 14 17 10 20 10 C23 10 26 14 26 20 C26 26 23 30 20 30 C17 30 14 26 14 20Z" stroke="#2A9D8F" stroke-width="1.2" fill="rgba(42,157,143,0.08)"/>
+          <line x1="20" y1="15" x2="20" y2="25" stroke="#2A9D8F" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="15.5" y1="18" x2="24.5" y2="18" stroke="#2A9D8F" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="15.5" y1="22" x2="24.5" y2="22" stroke="#2A9D8F" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <div class="nav__logo-text">
+          <span class="nav__logo-name">Respire Medical</span>
+          <span class="nav__logo-tagline">science for a better life</span>
+        </div>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our-story.html">Our Story</a></li>
+        <li><a href="expertise.html">Expertise</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="our-story.html">Our Story</a>
+    <a href="expertise.html">Expertise</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ── Hero ── -->
+  <section class="hero" aria-label="Hero banner">
+    <div class="hero__bg" style="background-image: url('https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=1600&q=80&auto=format&fit=crop');"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Singapore · Oncology · Diagnostics</p>
+      <h1 class="hero__title">Science for a <em>Better Life</em></h1>
+      <p class="hero__sub">Advancing oncology diagnostics and therapeutics across Southeast Asia</p>
+      <div class="hero__cta">
+        <a href="our-story.html" class="btn btn--primary">Who We Are</a>
+        <a href="expertise.html" class="btn btn--outline">Our Products</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ── Cards ── -->
+  <div class="cards" aria-label="Quick links">
+    <a href="our-story.html" class="card">
+      <img
+        class="card__img"
+        src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80&auto=format&fit=crop"
+        alt="Medical team collaborating"
+        loading="lazy"
+      />
+      <div class="card__overlay">
+        <span class="card__label">About Us</span>
+        <h2 class="card__title">Who We Are</h2>
+        <span class="card__arrow">
+          Discover our story
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </span>
+      </div>
+    </a>
+    <a href="expertise.html" class="card">
+      <img
+        class="card__img"
+        src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80&auto=format&fit=crop"
+        alt="Medical research laboratory"
+        loading="lazy"
+      />
+      <div class="card__overlay">
+        <span class="card__label">Products & Services</span>
+        <h2 class="card__title">What We Do</h2>
+        <span class="card__arrow">
+          Explore our expertise
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </span>
+      </div>
+    </a>
+  </div>
+
+  <!-- ── Contact Strip ── -->
+  <div class="contact-strip reveal">
+    <div class="contact-strip__inner">
+      <div class="contact-strip__info">
+        <div class="contact-strip__item">
+          <span class="contact-strip__item-label">Address</span>
+          <span class="contact-strip__item-value">150 Orchard Road, #08-11 Orchard Plaza, Singapore 238841</span>
+        </div>
+        <div class="contact-strip__item">
+          <span class="contact-strip__item-label">Phone</span>
+          <span class="contact-strip__item-value">
+            <a href="tel:+6596772110">(+65) 9677 2110</a>
+          </span>
+        </div>
+        <div class="contact-strip__item">
+          <span class="contact-strip__item-label">Email</span>
+          <span class="contact-strip__item-value">
+            <a href="mailto:respire.medical.pl@gmail.com">respire.medical.pl@gmail.com</a>
+          </span>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn--primary">Let's Talk</a>
+    </div>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer__inner">
+      <p class="footer__copy">© 2026 Respire Medical Pte Ltd. All Rights Reserved.</p>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="our-story.html">Our Story</a>
+        <a href="expertise.html">Expertise</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

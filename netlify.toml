@@ -1,0 +1,32 @@
+# netlify.toml — Respire Medical
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/home"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/our-story"
+  to = "/our-story.html"
+  status = 301
+
+[[redirects]]
+  from = "/expertise"
+  to = "/expertise.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
