@@ -529,16 +529,6 @@ ul { list-style: none; }
   object-fit: cover;
   border-radius: var(--radius);
 }
-.story-img__accent {
-  position: absolute;
-  bottom: -1.5rem;
-  right: -1.5rem;
-  width: 60%;
-  height: 60%;
-  border: 2px solid var(--teal);
-  border-radius: var(--radius);
-  z-index: -1;
-}
 .story-text { padding: 1rem 0; }
 .story-text p {
   font-size: 1rem;
