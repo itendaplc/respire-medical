@@ -1,5 +1,5 @@
 /* ============================================================
-   RESPIRE MEDICAL — main.js
+   Respire BioMed — main.js
    Sticky nav, scroll animations, mobile menu, form handling
    ============================================================ */
 

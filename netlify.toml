@@ -1,4 +1,4 @@
-# netlify.toml — Respire Medical
+# netlify.toml — Respire BioMed
 
 [build]
   publish = "."
